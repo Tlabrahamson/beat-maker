@@ -114,6 +114,32 @@ select {
   font-size: 0.75rem;
 }
 
+.mute.active {
+  background: #ccc;
+}
+
+.tempo {
+  margin: 3rem;
+  width: 30%;
+}
+
+.tempo-slider {
+  padding: 0.2rem;
+  -webkit-appearance: none;
+  margin: 1rem 0rem;
+  width: 100%;
+  position: relative;
+  background: #2d2d2d;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tempo p {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
+}
+
 @keyframes playTrack {
   from {
     transform: scale(1);
